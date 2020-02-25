@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(words)
-  words.each.include? {|word| word.length > 4}
+  words.each {|word| word.length > 4}
   # words.include?(words.length > 4)
 end
 
