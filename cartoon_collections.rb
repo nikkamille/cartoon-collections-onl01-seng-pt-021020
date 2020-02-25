@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(words)
   # words.each.include? {|word| word
-  words.include?(words.length)
+  words.include?(words.length > 4)
 end
 
 def find_the_cheese# code an argument here
